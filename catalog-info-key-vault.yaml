@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: componenet-test-keyvault
+  description: Key Vault do componente {{name}}
+
+spec:
+  owner: Spike
+  type: key-vault
+  system: IDP
+  lifecycle: production 
