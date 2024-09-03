@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: componente-teste
+  description: descrição do componenete test
+
+spec:
+  type: service
+  lifecycle: production
+  owner: Spike
+  system: IDP
